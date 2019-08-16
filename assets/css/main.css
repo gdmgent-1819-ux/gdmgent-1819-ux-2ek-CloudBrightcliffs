@@ -7,3 +7,149 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+
+.links{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family:Helvetica, sans-serif;
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+}
+
+body {
+    background-size: cover;
+
+   
+}
+@media (min-width: 1200px) {
+    body {
+        background-image:  url(../../Pics/Pencils.jpg);
+    }
+
+    body::after {}
+}
+@media (max-width: 575px) {
+    body {
+        background-image: url(../../Pics/Pencils.jpg);
+    }
+
+    body::after {}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        background-image: url(../../Pics/Pencils.jpg);
+    }
+
+    body::after {}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        background-image: url(../../Pics/Pencils.jpg);
+    }
+
+    body::after {}
+}
+.Home{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px
+}
+.red{
+    color: var(--c-Red);
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 550px;
+}
+
+.orange{
+    color: var(--c-Orange);
+    text-decoration: none;
+    margin-left: 650px;
+    margin-top: -22px; 
+}
+
+.yellow{
+    color: var(--c-Yellow);
+    text-decoration: none;
+    margin-left: 750px;
+    margin-top: -22px; 
+}
+
+.blue{
+    color: var(--c-Blue);
+    text-decoration: none;
+    margin-left: 840px;
+    margin-top: -22px; 
+}
+
+.violet{
+    color: var(--c-Violet);
+    text-decoration: none;
+    margin-left: 1000px;
+    margin-top: -22px; 
+
+}
+
+.taal{
+    margin-left: 1100px;
+    margin-top: -22px; 
+    text-decoration: none;
+  
+}
+
+.learn{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 735px;
+}
+.paint{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 100px;
+}
+.qoute{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+.crayon{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 790px;
+}
+.class{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.locker{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 950px;
+}
+
+.School{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.title{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 500px;
+    font-size: 1.9rem;
+    font-family: var(--t-tertiary);
+}
+
+.text{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 50px;
+    
+}

@@ -6,6 +6,15 @@
   --c-primary: hsl(190, 100%, 40%);
 
   /**
+   * Colour palette links
+   */
+  --c-Red : hsl(0, 85%, 50%);
+  --c-Orange : hsl(34, 85%, 50%);
+  --c-Yellow : hsl(54, 94%, 51%);
+  --c-Blue : hsl(204, 85%, 50%);
+  --c-Violet : hsl(286, 85%, 50%);
+
+  /**
    * Layout
    */
   --l-gutter: 1rem;
@@ -13,14 +22,17 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
+  --t-primary: Helvetica, sans-serif;
   --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
+  --t-tertiary: 'handwriting-draft_free-version';
 
   --t-headline: var(--t-primary);
   --t-subtitle: var(--t-primary);
   --t-body: var(--t-secondary);
   --t-code: var(--t-tertiary);
+
+
+
 }
 
 
